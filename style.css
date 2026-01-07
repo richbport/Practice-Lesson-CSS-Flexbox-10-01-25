@@ -4,24 +4,4 @@
     box-sizing: border-box;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.logo__container {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.nav__links__container {
-    display: flex;
-    list-style: none;
-    /* gap: 8px; */;
-}
-
-li {
-  padding-right: 16px;
-}
