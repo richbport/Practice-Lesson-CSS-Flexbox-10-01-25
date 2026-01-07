@@ -19,5 +19,9 @@
 .nav__links__container {
     display: flex;
     list-style: none;
-    gap: 8px;
+    /* gap: 8px; */;
+}
+
+li {
+  padding-right: 16px;
 }
