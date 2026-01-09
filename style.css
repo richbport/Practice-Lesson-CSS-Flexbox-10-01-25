@@ -18,7 +18,9 @@
   display: flex;
   background-color: lightgray;
   height: 600px;
-  /* justify-content: space-around;
-  align-items: flex-start; */
-  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: flex-end;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 8px;
 }
