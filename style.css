@@ -5,8 +5,8 @@
 }
 
 .box {
-  /* width: 75px; */
-  /* height: 50px; */
+  width: 75px;
+  height: 75px;
   border: 1px solid black;
   background-color: lightblue;
   display: flex;
@@ -15,7 +15,10 @@
 }
 
 .container {
-  /* display: flex; */
+  display: flex;
   background-color: lightgray;
   height: 600px;
+  /* justify-content: space-around;
+  align-items: flex-start; */
+  flex-direction: column;
 }
