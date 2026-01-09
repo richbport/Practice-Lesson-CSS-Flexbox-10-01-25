@@ -12,16 +12,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .container {
-  /* display: flex; */
+  display: flex;
   background-color: lightgray;
   /* height: 600px; */
   /* justify-content: space-around; */
   /* align-items: flex-end; */
   /* flex-wrap: wrap; */
-  /* flex-direction: column; */
-  /* gap: 8px; */
+  flex-direction: column;
+  gap: 8px;
 }
